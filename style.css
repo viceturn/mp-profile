@@ -19,3 +19,21 @@ body{
     object-fit: cover;
     object-position: -8;
 }
+.main{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5%;
+    padding: 0px 20px 20px 20px;
+}
+.content span{
+    text-transform: uppercase;
+    border: 1px solid green;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(64, 156, 28);
+} 
+.content span:hover{
+    cursor: pointer;
+    background-color: transparent;
+} 
